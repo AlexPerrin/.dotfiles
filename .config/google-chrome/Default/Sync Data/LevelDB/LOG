@@ -1,6 +1,0 @@
-2019/11/30-22:14:07.400 1cd9 Reusing MANIFEST /home/alex/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2019/11/30-22:14:07.400 1cd9 Recovering log #6
-2019/11/30-22:14:07.403 1cd9 Reusing old log /home/alex/.config/google-chrome/Default/Sync Data/LevelDB/000006.log 
-2019/11/30-22:16:32.137 1eb7 Level-0 table #10: started
-2019/11/30-22:16:32.145 1eb7 Level-0 table #10: 271050 bytes OK
-2019/11/30-22:16:32.148 1eb7 Delete type=0 #6

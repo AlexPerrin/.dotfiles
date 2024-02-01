@@ -1,1 +1,0 @@
-[2019-11-30 22:09:11.845] [renderer1] [error] doSave(0) - exit - resulted in a save error: Error: Unable to write file (Error: File Modified Since) {"$mid":1,"fsPath":"/home/alex/.Xresources","external":"file:///home/alex/.Xresources","path":"/home/alex/.Xresources","scheme":"file"}
