@@ -2,7 +2,7 @@ alias upgrate="sudo apt update; sudo apt upgrade -y"
 alias rcon="docker run -it --rm outdead/rcon ./rcon"
 
 # user scripts
-alias rb="~/.local/bin/rb.sh" # rust build
+alias rust="~/.local/bin/rust.sh" # rust build
 alias ffmpeg_nvenc="~/.local/bin/ffmpeg_nvenc.sh" #discord video converter
 
 # some more ls aliases
