@@ -95,4 +95,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-. "$HOME/.cargo/env"
+
+# run rustup shell setup if it exists
+if [ -a "$HOME/.cargo/env" ] ; then
+    . "$HOME/.cargo/env"
+fi

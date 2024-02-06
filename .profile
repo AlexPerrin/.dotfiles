@@ -31,4 +31,12 @@ if [ -d "$HOME/go/bin" ] ; then
     PATH="$HOME/go/bin:$PATH"
 fi
 
-. "$HOME/.cargo/env"
+# set PATH so it includes user's rust env if it exists
+if [ -d "$HOME/go/bin" ] ; then
+    PATH="$HOME/go/bin:$PATH"
+fi
+
+# run rustup shell setup if it exists
+if [ -a "$HOME/.cargo/env" ] ; then
+    . "$HOME/.cargo/env"
+fi
