@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Check if at least one argument is provided
-if [ -z "$1" ]; then
-    echo "Usage: $0 <input_file> [bitrate]"
+if [[ -z "$1" ]]; then
+    echo "Usage: $(basename $0) FILE [bitrate]"
     exit 1
 fi
 
