@@ -1,15 +1,12 @@
+# colour 
+alias ls='ls --color=auto'
+alias ip='ip --color=auto'
+alias grep='grep --color=auto'
 
 # some more ls aliases from ubuntu .bashrc
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-
-# colour 
-alias ls='ls --color=auto'
-alias ip='ip --color=auto'
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
 
 # shorthands
 alias upgrate='sudo apt update; sudo apt upgrade -y'
