@@ -9,6 +9,7 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # shorthands
+alias cls='clear'
 alias upgrate='sudo apt update; sudo apt upgrade -y'
 alias dps='docker ps --format "table{{.ID}}\t{{.Names}}\t{{.Image}}"'
 
