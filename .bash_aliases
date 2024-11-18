@@ -5,7 +5,6 @@ alias grep='grep --color=auto'
 
 # some more ls aliases from ubuntu .bashrc
 alias ll='ls -la'
-alias la='ls -A'
 alias upgrate='sudo apt update; sudo apt upgrade -y'
 alias dps='docker ps --format "table{{.Names}}\t{{.Status}}\t{{.ID}}\t{{.Image}}"'
 
